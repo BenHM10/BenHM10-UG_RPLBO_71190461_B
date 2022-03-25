@@ -2,8 +2,8 @@ package com.ug7.game;
 
 public class Main {
     public static void main(String[] args) {
-        Player P_71190480 = new Player("Bantolo", "prakrplboasik");
-        Player P_71190461 = new Player("Ben_HM", "Password Kamu");
+        Player P_71190480 = new Player("Bantolo", "Soal susah");
+        Player P_71190461 = new Player("Ben_HM", "Password");
         Ninja A_71190480 = new Ninja(P_71190480);
         Penyihir B_71190461 = new Penyihir(P_71190461);
         System.out.println("\n========== AWAL ==========");
