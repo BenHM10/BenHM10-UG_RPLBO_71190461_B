@@ -54,5 +54,17 @@ public class Login {
         if (username2.length() > 6 && username2.matches("^[A-Za-z0-9_-]*$")) {
             System.out.println("Username kamu berhasil diperbaharui," + username2);
         }
+
+        System.out.println("Maaf," + username2 + " kamu juga diminta untuk mengisi bio, silahkan masukan bio kamu");
+        Scanner input3 = new Scanner(System.in);
+        System.out.println("Bio : ");
+        String bio = input3.next();
+
+        if (bio.matches("([a-zA-Z]){5,30}")) {
+            System.out.println("Bio kamu berhasil diperbaharui, " + bio);
+        } else {
+            System.out.println("Maaf, bio minimal harus terdiri dari 5 karakter dan maksimal 30 karakter");
+        }
+
     }
 }
